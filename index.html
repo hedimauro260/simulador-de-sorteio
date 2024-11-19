@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simulador de Sorteio</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Simulador de Sorteio</h1>
+        <div class="input-area">
+            <input type="text" id="nameInput" placeholder="Adicione um nome">
+            <button id="addName">Adicionar</button>
+        </div>
+        <ul id="nameList"></ul>
+        <button id="drawWinner">Sortear</button>
+        <div id="winnerArea" style="display: none;">
+            <h2>🎉 Ganhador: <span id="winnerName"></span> 🎉</h2>
+        </div>
+        <button id="clearAll">Limpar Lista</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
